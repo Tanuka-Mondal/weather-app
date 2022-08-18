@@ -1,13 +1,168 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: cursive;
+}
+
+.app {
+  background-image: url('./images/weather.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+}
+
+.app.Thunderstorm {
+  background-image: url('./images/thunderstorm.jpg');
+}
+
+.app.Snow{
+  background-image: url('./images/snow.jpg');
+}
+
+.app.Clouds{
+  background-image: url('./images/clouds.jpg');
+}
+
+.app.Haze{
+  background-image: url('./images/haze.jpg');
+}
+
+.app.Rain{
+  background-image: url('./images/rain.jpg');
+}
+
+.app.Drizzle{
+  background-image: url('./images/drizzle.jpg');
+}
+
+.app.Mist{
+  background-image: url('./images/mist.jpg');
+}
+
+.app.Smoke{
+  background-image: url('./images/smoke.jpg');
+}
+
+.app.Clear{
+  background-image: url('./images/clear.jpg');
+}
+
+.app.Dust{
+  background-image: url('./images/dust.jpg');
+}
+
+.app.Fog{
+  background-image: url('./images/fog.jpg');
+}
+
+.app.Sand{
+  background-image: url('./images/sand.jpg');
+}
+.app.Tornado{
+  background-image: url('./images/tornado.jpg');
+}
+.app.Squall{
+  background-image: url('./images/squall.jpg');
+}
+.app.Ash{
+  background-image: url('./images/ash.jpg');
+}
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+    width: 100%;
+    padding: 15px;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    color: black;
+    transition: 0.4s ease;
+    font-family: cursive;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.location-box .location {
+  color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.location-box .date {
+  color: rgb(179, 247, 224);
+    font-size: 25px;
+    font-weight: 800;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0, 5, 82, 0.8);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 40px auto;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 10px;
+  padding: 15px 25px;
+  color: rgb(174, 0, 255);
+  font-size: 70px;
+  font-weight: 900;
+  text-shadow: 3px 2px rgba(0, 5, 82, 0.8);
+  text-align: center;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.weather-box .weather {
+  color: rgb(253, 255, 163);
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 540px) {
+  .app {
+    background-image: url(./images/weather.jpg);
+  }
+
+  .app.Sunny {
+    background-image: url(./images/Sunny2.jpg);
+  }
+
+  .search-box .search-bar{  
+    width: 70%;
+    margin: auto;
+    background-color: rgba(255,255,255,0.75);
+  }
+
+  .weather-box .temp{
+    font-size: 50px;
+  }
 }
