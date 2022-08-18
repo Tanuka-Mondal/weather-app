@@ -9,6 +9,9 @@ https://Tanuka-Mondal.github.io/weather-app
 ### Desktop View
 ![](https://github.com/Tanuka-Mondal/weather-app/blob/master/imgs/desktop%20rain.png)
 
+### Mobile view
+![](https://github.com/Tanuka-Mondal/weather-app/blob/master/imgs/mobile%20clear.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
