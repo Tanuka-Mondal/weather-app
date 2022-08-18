@@ -1,7 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## Website visible at:
+
+## Website visible at
 https://Tanuka-Mondal.github.io/weather-app
 
 ## Available Scripts
