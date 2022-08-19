@@ -109,7 +109,7 @@ main {
     font-size: 35px;
     font-weight: bolder;
     text-align: center;
-    text-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+    
 }
 
 .location-box .date {
@@ -118,7 +118,7 @@ main {
     font-weight: 800;
     font-style: oblique;
     text-align: center;
-    text-shadow: 3px 3px rgba(0, 5, 82, 0.8);
+    
 }
 
 .weather-box {
@@ -134,8 +134,7 @@ main {
   padding: 15px 25px;
   color: rgb(174, 0, 255);
   font-size: 70px;
-  font-weight: 900;
-  text-shadow: 3px 2px rgba(0, 5, 82, 0.8);
+  font-weight: 900;  
   text-align: center;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -144,7 +143,7 @@ main {
   color: rgb(253, 255, 163);
     font-size: 40px;
     font-weight: 700;
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.8);
+    
 }
 
 @media screen and (min-width: 540px) {
