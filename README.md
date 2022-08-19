@@ -5,6 +5,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Website visible at
 https://Tanuka-Mondal.github.io/weather-app
 
+
+## App Preview
+### Desktop View
+![](https://github.com/Tanuka-Mondal/weather-app/blob/master/imgs/desktop%20rain.png)
+
+### Mobile view
+![](https://github.com/Tanuka-Mondal/weather-app/blob/master/imgs/mobile%20clear.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
